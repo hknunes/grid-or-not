@@ -11,8 +11,8 @@ numLinhas = 5   # A tabela tem 5 linhas
 numColunas = 5  # A tabela tem 5 colunas
 objectivo = 3   # Objectivo do jogo
 
-def tensDeRemover(Tab, nlinhas, ncolunas, objectivo):
 
+def tensDeRemover(Tab, nlinhas, ncolunas, objectivo):
     RemoveColuna = set()
 
     for i in range(nlinhas):
@@ -30,8 +30,10 @@ def tensDeRemover(Tab, nlinhas, ncolunas, objectivo):
                 RemoveColuna.add(j)
     return RemoveColuna
 
+
 cor = [pygame.image.load("im0.gif"), pygame.image.load("im1.gif"), pygame.image.load("im2.gif"),
-       pygame.image.load("im3.gif")]    # É desta lista que se escolhe as cores para os circulos
+       pygame.image.load("im3.gif"), pygame.image.load("im4.gif"),
+       pygame.image.load("im5.gif")]    # É desta lista que se escolhe as cores para os circulos
 
 # # Tab = [[[74 * i, 74 * j] for j in range(numColunas)] for i in range(numLinhas)]
 
@@ -39,16 +41,16 @@ cor = [pygame.image.load("im0.gif"), pygame.image.load("im1.gif"), pygame.image.
 pygame.init()
 
 # define ecra
-screen = pygame.display.set_mode([370,370])
+screen = pygame.display.set_mode([370, 370])
 
 # escrever titulo da janela
 pygame.display.set_caption("Grid or Not")
 
-Tab=[]
+Tab = []
 for j in range(numColunas):
     linha = []
     for i in range(numLinhas):
-        linha.append([74*i, 74*j, random.randrange(len(cor))])
+        linha.append([74 * i, 74 * j, random.randrange(len(cor))])
     Tab.append(linha)
 
 # inicia a linha e coluna do circulo onde está o cursor do rato
