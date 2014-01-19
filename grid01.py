@@ -39,7 +39,7 @@ cor = [pygame.image.load("im0.gif"), pygame.image.load("im1.gif"), pygame.image.
 pygame.init()
 
 # define ecra
-screen = pygame.display.set_mode([500,500])
+screen = pygame.display.set_mode([370,370])
 
 # escrever titulo da janela
 pygame.display.set_caption("Grid or Not")
