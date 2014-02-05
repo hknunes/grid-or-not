@@ -26,10 +26,8 @@
       <file leaf-file-name="grid01.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grid01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="1.161039" vertical-offset="199" max-vertical-offset="2074">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state line="40" column="18" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.2899263" vertical-offset="511" max-vertical-offset="2159">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,7 +35,7 @@
       <file leaf-file-name="3_em_coluna.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3_em_coluna.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1413" selection-end="1584" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2397">
+            <state line="93" column="68" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
               <folding />
             </state>
           </provider>
@@ -61,6 +59,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/3_em_coluna.py" />
         <option value="$PROJECT_DIR$/grid01.py" />
       </list>
     </option>
@@ -97,6 +96,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Changed Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -117,19 +119,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Changed Files" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -150,6 +149,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="grid-or-not" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grid01.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="3_em_coluna" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grid-or-not" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_em_coluna.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -276,12 +295,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.grid01" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3_em_coluna" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Python.grid01" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3_em_coluna" />
       </list>
     </recent_temporary>
   </component>
@@ -312,18 +333,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25549048" sideWeight="0.67156863" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12737921" sideWeight="0.7075163" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29248366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -343,15 +364,50 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/3_em_coluna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="68" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="57" selection-start="3722" selection-end="3722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_em_coluna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="68" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_em_coluna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1413" selection-end="1584" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grid01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="33" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1938">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -362,19 +418,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/im0.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im2.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im3.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im4.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im5.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="714" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3_em_coluna.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1413" selection-end="1584" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2397">
+        <state line="93" column="68" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grid01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1156" selection-end="1156" vertical-scroll-proportion="1.161039" vertical-offset="199" max-vertical-offset="2074">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state line="40" column="18" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.2899263" vertical-offset="511" max-vertical-offset="2159">
+          <folding />
         </state>
       </provider>
     </entry>

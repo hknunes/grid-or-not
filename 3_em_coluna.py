@@ -92,7 +92,6 @@ while not done:
 
     # Função que determina linhas ou colunas a remover
     ColunasRem = tensDeRemover(Tab, numLinhas, numColunas, ojectivo)
-
     print("Colunas a alterar:", ColunasRem)
 
     #

@@ -1,7 +1,8 @@
-﻿import pygame
-from pygame.locals import *
-from pygame.sprite import Sprite, RenderUpdates
-import random
+﻿import random
+
+import pygame
+import pygame.mixer
+
 
 black = (0, 0, 0)
 white = (255, 255, 255)
@@ -30,16 +31,21 @@ def tensDeRemover(Tab, nlinhas, ncolunas, objectivo):
                 RemoveColuna.add(j)
     return RemoveColuna
 
-
-cor = [pygame.image.load("im0.gif"), pygame.image.load("im1.gif"), pygame.image.load("im2.gif"),
-       pygame.image.load("im3.gif"), pygame.image.load("im4.gif"),
-       pygame.image.load("im5.gif")]    # É desta lista que se escolhe as cores para os circulos
+cor = [pygame.image.load("im0.gif"), pygame.image.load("im1.gif")]    # É desta lista que se escolhe as cores para os circulos
 
 # # Tab = [[[74 * i, 74 * j] for j in range(numColunas)] for i in range(numLinhas)]
 
 # incia motor de jogo
 pygame.init()
+# Inicia o mixer (Isto é importante!!!)
+pygame.mixer.init()
+# isto permite parametrizar o som de acordo com a sua placa
 
+# Carrega música ambiente (só pode ter uma a tocar)
+pygame.mixer.music.load('kalimba.wav') # música ambiente
+
+# Toca música ambiente indefinidamente
+pygame.mixer.music.play(-1)
 # define ecra
 screen = pygame.display.set_mode([370, 370])
 
@@ -109,9 +115,11 @@ while not done:
         if Ncor > len(cor) - 1:
             Ncor = 0
         Tab[yPre][xPre][2] = Ncor     # Altera cor
-        pygame.draw.rect(screen, red, [ValX, ValY, 100, 100], 4)
+        pygame.draw.rect(screen, red, [ValX, ValY, 74, 74], 4)
 
     pygame.display.flip()
     clock.tick(10)
+
+pygame.mixer.music.stop() # Atenção: para parar a música ambiente
 
 pygame.quit()
